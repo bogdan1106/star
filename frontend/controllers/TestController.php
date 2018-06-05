@@ -15,7 +15,6 @@ class TestController extends Controller
         $formData = Yii::$app->request->post();
         if (Yii::$app->request->isPost) {
 
-//            $model->attributes = $formData;
 
             $model->birthDate = $formData['birthDate'];
             $model->startWorkData = $formData['startWorkData'];
